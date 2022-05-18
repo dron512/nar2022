@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body{
+    /* overflow-y: hidden; */
+}
+.container{
+    width: 480px;
+    margin: 0 auto;
+}
+.sub_container{
+    padding-bottom: 120px;
+}
+.header{
+    position: relative;
+    padding: 20px;
+    height: 60px;
+}
+.header_left{
+    position: absolute;
+}
+.header_right{
+    position: absolute;
+    right: 0;
+}
+
+.content{
+    padding: 0 20px;
+}
+.content > p{
+    line-height: 2.4rem;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.content .searchbtn{
+    margin: 15px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.181);
+    border-radius: 10px;
+}
+.content .searchbtn span{
+    line-height: 2.5rem;
+}
+.husearchbtn{
+    margin-top: -50px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.husearchbtn ul li a img{
+    width: 87px;
+    float: left;
+}
+.slider > div{
+    width: inherit;
+    margin: 0 auto;
+}
+
+.img_upload > h2{
+    font-size: 1.5rem;
+}
+.img_upload > div{
+    margin: 10px;
+}
+
+.menu{
+    background-color: white;
+    z-index: 1030;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 480px;
+    border-top: 0.3px solid rgba(0, 0, 0, 0.181);
+    position: fixed;
+    bottom: 0;
+}
+.menu li{
+    float: left;
+    padding: 5px 0;
+    list-style-type: none;
+    width: 120px;
+}
+.menu a{
+    display: flex;
+}
+.menu li a img{
+    margin: auto auto;
+}
+.menu li h3{
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+*{
+	font-family: 'Do Hyeon', sans-serif !important;
+}
